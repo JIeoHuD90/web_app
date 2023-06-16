@@ -1,0 +1,87 @@
+@charset "utf-8";
+
+.first-color {
+	background: #2e94b9;
+}
+
+.second-color {
+	background: #475053;
+}
+
+.third-color {
+	background: #acdcee;
+}
+
+.fourth-color {
+	background: #f0fbff;
+}
+
+body {
+	background: #acdcee;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+
+}
+
+form {
+	width: 100%;
+	margin: 0 auto;
+	padding: 20px;
+	border: 1px solid rgba(24, 11, 59, 0.7);
+	border-radius: 5px;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+	background-color: rgba(59, 37, 121, 0.7);
+	height: 100%;
+
+
+}
+
+#username {
+	width: 100%;
+	background-color: white;
+	box-sizing: border-box;
+	border-radius: 5px;
+	padding: 5px;
+	margin-bottom: 2%;
+	margin-top: 2%;
+}
+
+#password {
+	width: 100%;
+	background-color: white;
+	box-sizing: border-box;
+	border-radius: 5px;
+	padding: 5px;
+	margin-bottom: 2%;
+	margin-top: 2%;
+}
+
+.form-group-buttons {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 10px;
+}
+
+button {
+	background-color: #475053;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	padding: 4% 6%;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	transition: background-color 0.3s ease;
+	margin-top: 2%;
+}
+
+button:hover {
+	background-color: #556892;
+}
+
+body {
+	background-image: url("img/background.jpg");
+	background-repeat: no-repeat;
+	background-size: auto;
+	background-color: #bb36a5;
+}
